@@ -94,7 +94,7 @@ class DataTransformation:
             #for test data
             input_feature_test_df= test_df.drop(columns=drop_column,axis=1)
             target_feature_test_df= test_df[target_column]
-            logging.info(f"{input_feature_test_df.shape},{target_feature_test_df.shape}")
+            logging.info(f'{input_feature_test_df.shape},{target_feature_test_df.shape}')
 
 
             ##apply data transformation
